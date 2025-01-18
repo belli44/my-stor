@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة الزبادي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted playsinline>
+            <source src="you.html.mp4" type="video/mp4">
+            المتصفح الخاص بك لا يدعم تشغيل الفيديو.
+        </video>
+    </div>
+    <div class="container">
+        <nav>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="menu">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">من نحن؟</a></li>
+                <li><a href="#">الخدمات</a></li>
+                <li><a href="proudact.html">المنتجات</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <p>الساعة التى تضعها ليست مجرد شئ تضعه 💪...</p>
+            <button>من نحن؟</button>
+        </div>
+        <div class="contact">
+            <h1>ساعة اليد سر الفخامة والثقة</h1>
+            <p>جميع انواع الساعات تجدها هنا...</p>
+            <a
+         href="https://www.instagram.com/yuseup1/profilecard/?igsh=MWlra2Fub2Qxa2U1Nw=="  
+         target="_blank" >
+            <button>إعرف المزيد</button>
+            </a>
+            <p>الهاتف+212690493629</p>
+    <p>العنوان: الدار البيضاء, مدينه الرحمة, المغرب </p>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
